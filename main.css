@@ -4,98 +4,98 @@
 /* ====================== CSS变量定义 ====================== */
 :root {
   /* 基础颜色 */
-  --leo-white: #fff;
-  --leo-white-op: rgba(255,255,255,0.2);
-  --leo-black: #000;
-  --leo-black-op: rgba(0,0,0,0.2);
-  --leo-none: #00001e00;
-  --leo-gray: #999999;
-  --leo-gray-op: #9999992b;
-  --leo-vip: #e5a80d;
+  --len-white: #fff;
+  --len-white-op: rgba(255,255,255,0.2);
+  --len-black: #000;
+  --len-black-op: rgba(0,0,0,0.2);
+  --len-none: #00001e00;
+  --len-gray: #999999;
+  --len-gray-op: #9999992b;
+  --len-vip: #e5a80d;
   
   /* 主题派生变量 */
-  --leo-main: var(--leo-theme);
-  --leo-main-op: var(--leo-theme-op);
-  --leo-main-none: var(--leo-theme-none);
+  --len-main: var(--len-theme);
+  --len-main-op: var(--len-theme-op);
+  --len-main-none: var(--len-theme-none);
   
   /* 阴影系统 */
-  --leo-shadow-theme: 0 8px 12px -3px var(--leo-theme-op);
-  --leo-shadow-blackdeep: 0 2px 16px -3px rgba(0, 0, 0,.15);
-  --leo-shadow-main: 0 8px 12px -3px var(--leo-main-op);
-  --leo-shadow-blue: 0 8px 12px -3px rgba(40, 109, 234,.20);
-  --leo-shadow-white: 0 8px 12px -3px rgba(255, 255, 255,.20);
-  --leo-shadow-black: 0 0 12px 4px rgba(0, 0, 0,.05);
-  --leo-shadow-yellow: 0px 38px 77px -26px rgba(255, 201, 62,.12);
-  --leo-shadow-red: 0 8px 12px -3px #ee7d7936;
-  --leo-shadow-green: 0 8px 12px -3px #87ee7936;
+  --len-shadow-theme: 0 8px 12px -3px var(--len-theme-op);
+  --len-shadow-blackdeep: 0 2px 16px -3px rgba(0, 0, 0,.15);
+  --len-shadow-main: 0 8px 12px -3px var(--len-main-op);
+  --len-shadow-blue: 0 8px 12px -3px rgba(40, 109, 234,.20);
+  --len-shadow-white: 0 8px 12px -3px rgba(255, 255, 255,.20);
+  --len-shadow-black: 0 0 12px 4px rgba(0, 0, 0,.05);
+  --len-shadow-yellow: 0px 38px 77px -26px rgba(255, 201, 62,.12);
+  --len-shadow-red: 0 8px 12px -3px #ee7d7936;
+  --len-shadow-green: 0 8px 12px -3px #87ee7936;
   
   /* 渐变效果 */
-  --leo-logo-color: linear-gradient(215deg,#4584ff 0%,#cf0db9 100%);
+  --len-logo-color: linear-gradient(215deg,#4584ff 0%,#cf0db9 100%);
   
   /* 组件计时 */
-  --leo-snackbar-time: 5s;
+  --len-snackbar-time: 5s;
   
   /* 边框系统 */
-  --style-border: 1px solid var(--leo-card-border);
-  --style-border-always: 1px solid var(--leo-card-border);
-  --style-border-hover: 1px solid var(--leo-main);
-  --style-border-hover-always: 1px solid var(--leo-main);
-  --style-border-dashed: 1px dashed var(--leo-theme-op);
+  --style-border: 1px solid var(--len-card-border);
+  --style-border-always: 1px solid var(--len-card-border);
+  --style-border-hover: 1px solid var(--len-main);
+  --style-border-hover-always: 1px solid var(--len-main);
+  --style-border-dashed: 1px dashed var(--len-theme-op);
   
   /* 主题色 */
-  --leo-theme: #4259ef;
-  --leo-theme-op: #4259ef23;
-  --leo-theme-op-deep: #4259efdd;
-  --leo-theme-op-light: #4259ef0d;
-  --leo-theme-none: #4259ef01;
+  --len-theme: #4259ef;
+  --len-theme-op: #4259ef23;
+  --len-theme-op-deep: #4259efdd;
+  --len-theme-op-light: #4259ef0d;
+  --len-theme-none: #4259ef01;
   
   /* 扩展颜色 */
-  --leo-blue: #425AEF;
-  --leo-red: #d80020;
-  --leo-red-op: #d800201a;
-  --leo-red-op-deep: #d8002056;
-  --leo-pink: #FF7C7C;
-  --leo-green: #57bd6a;
-  --leo-green-op: #57bd6a1a;
-  --leo-green-op-deep: #57bd6a56;
-  --leo-yellow: #936900;
-  --leo-yellow-op: #d99c001a;
-  --leo-orange: #e38100;
-  --leo-purple: #7a60d2;
+  --len-blue: #425AEF;
+  --len-red: #d80020;
+  --len-red-op: #d800201a;
+  --len-red-op-deep: #d8002056;
+  --len-pink: #FF7C7C;
+  --len-green: #57bd6a;
+  --len-green-op: #57bd6a1a;
+  --len-green-op-deep: #57bd6a56;
+  --len-yellow: #936900;
+  --len-yellow-op: #d99c001a;
+  --len-orange: #e38100;
+  --len-purple: #7a60d2;
   
   /* 文字颜色 */
-  --leo-fontcolor: #363636;
-  --leo-secondtext: rgba(60, 60, 67, 0.6);
-  --leo-scrollbar: rgba(60, 60, 67, 0.4);
+  --len-fontcolor: #363636;
+  --len-secondtext: rgba(60, 60, 67, 0.6);
+  --len-scrollbar: rgba(60, 60, 67, 0.4);
   
   /* 背景系统 */
-  --leo-background: #f7f9fe;
-  --leo-navbg: rgba(22, 22, 23, 0.91);
-  --leo-reverse: #000;
-  --leo-maskbg: rgba(255, 255, 255, 0.6);
-  --leo-maskbgdeep: rgba(255, 255, 255, 0.85);
-  --leo-ahoverbg: #F7F7FA;
+  --len-background: #f7f9fe;
+  --len-navbg: rgba(22, 22, 23, 0.91);
+  --len-reverse: #000;
+  --len-maskbg: rgba(255, 255, 255, 0.6);
+  --len-maskbgdeep: rgba(255, 255, 255, 0.85);
+  --len-ahoverbg: #F7F7FA;
   
   /* 卡片系统 */
-  --leo-card-btn-bg: #1C1C1F;
-  --leo-post-blockquote-bg: #fafcff;
-  --leo-post-tabs-bg: #f2f5f8;
-  --leo-secondbg: #F5F5F7;
-  --leo-card-bg: #fff;
-  --leo-card-bg-op: var(--leo-black-op);
-  --leo-card-bg-none: rgba(255, 255, 255, 0);
+  --len-card-btn-bg: #1C1C1F;
+  --len-post-blockquote-bg: #fafcff;
+  --len-post-tabs-bg: #f2f5f8;
+  --len-secondbg: #F5F5F7;
+  --len-card-bg: #fff;
+  --len-card-bg-op: var(--len-black-op);
+  --len-card-bg-none: rgba(255, 255, 255, 0);
   
   /* 导航动态变量 */
-  --leo-navbgs: #fff(0, 0, 0, 0.8);
-  --leo-card-bgs: #1c1c1f;
-  --leo-fontcolors: #fff;
-  --leo-whites: #333;
+  --len-navbgs: #fff(0, 0, 0, 0.8);
+  --len-card-bgs: #1c1c1f;
+  --len-fontcolors: #fff;
+  --len-whites: #333;
 }
 
 /* ====================== 全局基础样式 ====================== */
 ::selection {
-  background: var(--leo-fontcolor);
-  color: var(--leo-background);
+  background: var(--len-fontcolor);
+  color: var(--len-background);
 }
 
 /* ====================== 关键帧动画 ====================== */
@@ -108,31 +108,31 @@
 @keyframes showbanner {
   0% {
     top: 0;
-    background: var(--leo-theme)
+    background: var(--len-theme)
   }
   30% {
     top: 60px
   }
   80% {
-    background: var(--leo-theme)
+    background: var(--len-theme)
   }
   100% {
-    background: var(--leo-secondbg)
+    background: var(--len-secondbg)
   }
 }
 
 @keyframes showbannertext {
   0%, 80% {
-    color: var(--leo-whites)
+    color: var(--len-whites)
   }
   100% {
-    color: var(--leo-fontcolors)
+    color: var(--len-fontcolors)
   }
 }
 
 /* ====================== 主体布局 ====================== */
 body {
-  background: var(--leo-background);
+  background: var(--len-background);
   display: flex;
   margin: auto;
   flex-direction: column;
@@ -159,8 +159,8 @@ span {
 
 sup {
   font-size: 12px;
-  background: var(--leo-green);
-  color: var(--leo-whites);
+  background: var(--len-green);
+  color: var(--len-whites);
   padding: 4px;
   border-radius: 4px;
   margin-left: 6px;
@@ -170,7 +170,7 @@ sup {
 }
 
 sup.hot {
-  background: var(--leo-red);
+  background: var(--len-red);
 }
 
 img {
@@ -187,7 +187,7 @@ img {
   position: fixed;
   justify-content: center;
   flex-direction: column;
-  background: var(--leo-navbgs);
+  background: var(--len-navbgs);
   align-items: center;
   z-index: 1000;
   transition: all 1s cubic-bezier(0.4, 0, 0.2, 1) !important;
@@ -196,12 +196,12 @@ img {
 }
 
 .nav.top {
-  background: var(--leo-navbgs) !important;
-  color: var(--leo-whites) !important;
+  background: var(--len-navbgs) !important;
+  color: var(--len-whites) !important;
 }
 
 .nav.top a.nav-item {
-  color: var(--leo-whites);
+  color: var(--len-whites);
 }
 
 .nav-content {
@@ -226,18 +226,18 @@ img {
   left: 0;
   animation: 4s ease-in-out showbanner;
   z-index: 1;
-  background: var(--leo-secondbg);
+  background: var(--len-secondbg);
 }
 
 .nav-banner a {
   font-size: 12px;
   transition: .3s ease-in-out;
   animation: 4s ease-in-out showbannertext;
-  color: var(--leo-fontcolors);
+  color: var(--len-fontcolors);
 }
 
 .nav-banner a:hover {
-  color: var(--leo-theme);
+  color: var(--len-theme);
 }
 
 .nav-right .nav-menu {
@@ -273,21 +273,21 @@ a.right-stack {
 }
 
 .nav.top:not(.nav-scrolled) span.site-name {
-  color: var(--leo-whites) !important;
+  color: var(--len-whites) !important;
 }
 
 span.site-name {
-  color: var(--leo-whites);
+  color: var(--len-whites);
   font-size: 14px;
   margin-left: 8px;
 }
 
 .nav.top span.site-name {
-  color: var(--leo-fontcolors);
+  color: var(--len-fontcolors);
 }
 
 a.nav-item {
-  color: var(--leo-whites);
+  color: var(--len-whites);
   opacity: 0.8;
   transition: ease-in-out 0.3s;
   font-size: 14px;
@@ -321,11 +321,11 @@ a.nav-item {
 a.nav-item:hover {
   opacity: 1;
   background: rgba(255, 255, 255, 0.05);
-  color: var(--leo-fontcolors);
+  color: var(--len-fontcolors);
 }
 
 .nav.top a.nav-item:hover {
-  background: var(--leo-secondbg);
+  background: var(--len-secondbg);
 }
 
 .nav-right {
@@ -381,8 +381,8 @@ span.highlight {
 a.about-button {
   display: flex;
   padding: 0 36px;
-  background: var(--leo-card-btn-bg);
-  color: var(--leo-white);
+  background: var(--len-card-btn-bg);
+  color: var(--len-white);
   border-radius: 29px;
   box-shadow: 0px 12px 12px -9px rgba(0,0,0,0.29);
   margin-top: 64px;
@@ -395,7 +395,7 @@ a.about-button {
 }
 
 a.about-button:hover {
-  background: var(--leo-main);
+  background: var(--len-main);
   box-shadow: 0px 12px 12px -9px rgba(5, 51, 137, 0.29);
 }
 
@@ -412,7 +412,7 @@ h2.group-title {
 
 .group-description {
   font-size: 14px;
-  color: var(--leo-secondtext);
+  color: var(--len-secondtext);
 }
 
 .group-items {
@@ -448,11 +448,11 @@ span.linkbotton-tips {
   display: flex;
   margin-left: 10px;
   font-size: 12px;
-  color: var(--leo-secondtext);
+  color: var(--len-secondtext);
 }
 
 .special-card span.linkbotton-tips {
-  color: var(--leo-white);
+  color: var(--len-white);
 }
 
 .group-info {
@@ -469,7 +469,7 @@ span.linkbotton-tips {
 }
 
 .group-info-group a.title {
-  color: var(--leo-fontcolor);
+  color: var(--len-fontcolor);
   font-size: 20px;
   line-height: 1;
   margin-bottom: 8px;
@@ -479,7 +479,7 @@ span.linkbotton-tips {
 }
 
 .group-info-group a.discription {
-  color: var(--leo-fontcolor);
+  color: var(--len-fontcolor);
   font-size: 14px;
   width: fit-content;
   max-width: 220px;
@@ -494,8 +494,8 @@ span.linkbotton-tips {
 a.linkbutton {
   padding: 6px 20px;
   display: flex;
-  background: var(--leo-blue);
-  color: var(--leo-white);
+  background: var(--len-blue);
+  color: var(--len-white);
   font-size: 14px;
   border-radius: 21px;
   transition: ease-in-out 0.3s;
@@ -517,7 +517,7 @@ a.linkbutton:active {
   display: flex;
   justify-content: center;
   width: 100%;
-  background: var(--leo-secondbg);
+  background: var(--len-secondbg);
   margin-top: 80px;
   align-items: center;
 }
@@ -526,7 +526,7 @@ a.linkbutton:active {
   font-size: 12px;
   margin: 0 20px;
   opacity: 0.6;
-  color: var(--leo-fontcolor);
+  color: var(--len-fontcolor);
   transition: ease-in-out 0.3s;
   margin: 4px 0;
 }
@@ -566,13 +566,13 @@ a.linkbutton:active {
 }
 
 .product-banner .tips {
-  color: var(--leo-vip);
+  color: var(--len-vip);
   font-size: 14px;
 }
 
 .product-banner span.title {
   font-size: 56px;
-  color: var(--leo-white);
+  color: var(--len-white);
   font-weight: bold;
   text-align: center;
   line-height: 60px;
@@ -593,7 +593,7 @@ span.punctuation {
 
 .product-banner span.description {
   font-size: 16px;
-  color: var(--leo-white);
+  color: var(--len-white);
   text-align: center;
 }
 
@@ -605,20 +605,20 @@ span.punctuation {
 
 a.primary-button {
   padding: 8px 26px;
-  background: var(--leo-white);
-  color: var(--leo-fontcolor);
+  background: var(--len-white);
+  color: var(--len-fontcolor);
   border-radius: 26px;
   transition: ease-in-out 0.3s;
   white-space: nowrap;
 }
 
 a.primary-button:hover {
-  background: var(--leo-black);
-  color: var(--leo-white);
+  background: var(--len-black);
+  color: var(--len-white);
 }
 
 a.second-link {
-  color: var(--leo-white);
+  color: var(--len-white);
   opacity: 0.6;
   font-size: 14px;
   margin-left: 12px;
@@ -685,7 +685,7 @@ a.second-link:hover {
 .special-card-left .tips {
   font-size: 18px;
   font-weight: bold;
-  color: var(--leo-white);
+  color: var(--len-white);
 }
 
 .special-card-left .title {
@@ -695,7 +695,7 @@ a.second-link:hover {
   line-height: 1.2;
   margin-top: 8px;
   max-width: calc(100% - 700px);
-  color: var(--leo-white);
+  color: var(--len-white);
 }
 
 .special-card-left .discription {
@@ -704,7 +704,7 @@ a.second-link:hover {
   opacity: 0.8;
   line-height: 1.2;
   max-width: calc(100% - 700px);
-  color: var(--leo-white);
+  color: var(--len-white);
 }
 
 .special-card-left .button-group {
@@ -777,7 +777,7 @@ span.avatar-name {
   height: 100px;
   border-radius: 50%;
   border: 4px solid #fff;
-  box-shadow: var(--leo-shadow-lightblack);
+  box-shadow: var(--len-shadow-lightblack);
   filter: drop-shadow(2px 4px 12px #ec625b2e);
 }
 
@@ -845,7 +845,7 @@ span.avatar-name {
   }
 
   .show-menu .nav {
-    background: var(--leo-fontcolors);
+    background: var(--len-fontcolors);
   }
 
   .show-menu .nav-content {
@@ -858,7 +858,7 @@ span.avatar-name {
 
   .nav-right .nav-menu {
     display: flex;
-    color: var(--leo-fontcolors);
+    color: var(--len-fontcolors);
     padding: 8px 0 8px 8px;
   }
 
